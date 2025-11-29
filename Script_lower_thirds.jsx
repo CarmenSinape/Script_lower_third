@@ -10,10 +10,10 @@ var allMyFonts = app.fonts.allFonts;
 
 //UI
 
-var myWindow = new Window("palette", "Rótulos DePRISA", undefined);
+var myWindow = new Window("palette", "Rótulos", undefined);
 myWindow.orientation = "column";
 
-var title = myWindow.add("statictext", undefined, "El Script de PRISA");
+var title = myWindow.add("statictext", undefined, "Script de rotulación");
 
 //UI Rotulación
 
@@ -389,3 +389,4 @@ changeFontButton.onClick = function () {
 
 // Llenar la lista de fuentes instaladas al cargar la interfaz
 instaledFonts();
+
