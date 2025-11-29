@@ -390,3 +390,4 @@ changeFontButton.onClick = function () {
 // Llenar la lista de fuentes instaladas al cargar la interfaz
 instaledFonts();
 
+
